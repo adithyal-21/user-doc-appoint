@@ -1,0 +1,102 @@
+ul li a{
+  color:black;
+  text-decoration: none;
+  font-weight: 450;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+ 
+  transition: 0.3s;
+  font-size:17px;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+}
+body{
+    background-color: grey;
+}
+#pills{
+    background-color: #34495E ;
+    width:80px;
+    height: 41px;
+    box-shadow: 3px 6px 10px 6px rgba(0,0,0,0.2);
+   
+    
+}
+#pills a{
+    font-weight: 600;
+    color:white;
+}
+#pills:hover{
+    background-color: white;
+    pointer-events: none;
+}
+#pills a:hover{
+  color:black;
+}
+.content{
+    max-width: 600px;
+    margin: 60px 10px;
+  }
+  
+  .content .info h2{
+    color: #34495E;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .content .info h2 span{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .content .info p{
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 40px;
+  }
+  
+  .content #info-btn{
+    color: #fff;
+    background: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  
+  .content .info-btn:hover{
+    background: #0C4F60;
+  }
+  .media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+  }
+  
+  .media-icons a:not(:last-child){
+    margin-right: 60px;
+  }
+  
+  .media-icons a:hover{
+    transform: scale(1.5);
+  }
+  
